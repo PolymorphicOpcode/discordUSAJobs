@@ -35,7 +35,7 @@ def fetch_job_listings(email, api_key):
         "HiringPath": "student",
         "SortField": "opendate",
         "SortDirection": "desc",
-        "ResultsPerPage": "500",
+        "ResultsPerPage": "100",
         "DatePosted": "1"  # Jobs posted within the last week
     }
 
