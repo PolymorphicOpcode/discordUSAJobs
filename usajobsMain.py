@@ -60,8 +60,8 @@ def format_jobs(api_response):
     return "\n".join(output_lines)
 
 def main():
-    email, api_key = get_credentials()
     try:
+        email, api_key = get_credentials()
         api_response = fetch_job_listings(email, api_key)
         formatted_output = format_jobs(api_response)
         print(formatted_output)
