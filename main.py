@@ -1,7 +1,6 @@
 import os
 import asyncio
 import subprocess
-from discord.ext import commands
 from dotenv import load_dotenv
 
 # Load environment variables
