@@ -36,7 +36,7 @@ def fetch_job_listings(email, api_key):
         "SortField": "opendate",
         "SortDirection": "desc",
         "ResultsPerPage": "500",
-        "DatePosted": "7"  # Jobs posted within the last week
+        "DatePosted": "1"  # Jobs posted within the last week
     }
 
     # Perform the API request
